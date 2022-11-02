@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#contact{
+    float: left;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color:  rgb(5, 241, 76);
+    border-radius: 25px;
+    border-width: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 33%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+ }
+
+#contact h2{
+    margin-bottom: 15px;
+}
+#contact p{
+    margin-bottom: 15px;
+}
+
+.a:link{
+    color:yellow;
+    text-decoration: none;
+}
+
+.a:visited{
+    color:gray;
+    text-decoration: none;
+}
+
+#bordecontacte{
+    display:block;
+    position: relative;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 5%;
+}

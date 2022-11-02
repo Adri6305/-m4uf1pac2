@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+table, td, th{
+    border: 3px solid rgb(5, 241, 76);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+}
+caption{
+    border-style: solid;
+    border-color: rgb(5, 241, 76);
+    border-bottom: 0px;
+    border-width: 3px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size:35px;
+}
+
+#taula{
+    table-layout:auto;
+    border-style: solid;
+    border-collapse: collapse;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: black;
+    color:white;
+    margin-left: 31%;
+    margin-bottom: 5%;
+}
+
+#bordeagenda{
+    display:block;
+    position: relative;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 5%;
+}

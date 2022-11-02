@@ -1,0 +1,174 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../img/fondoheader.jpg); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#encabezado{
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+    background-color: white;
+    color: black;
+    border-color: rgb(5, 241, 76);
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 4px;
+    padding-right: 0%;
+    padding-bottom: 20px;
+    padding-left: 0%;
+    padding-top: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#titleheader{
+    font-size: 200%;
+    font-weight: 700;
+   text-align: center;
+    padding-top: 5%;
+}
+
+#imgheader{
+    display: block; 
+    margin: auto; 
+}
+
+#borde1{
+    display:block;
+    position: relative;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: 5%;
+}
+
+#menu{
+    background-color: black;
+    position: fixed;
+}
+#menu ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+ #menu ul li{
+    display: inline-block;
+    padding: 0px;
+ }
+
+ #menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 98.15px;
+ }
+
+ #menu ul li a:link{
+    color:white;
+ }
+
+ #menu ul li a:visited{
+    color:gray;
+ }
+
+ #menu ul li a:hover{
+    background-color: rgb(5, 241, 76);
+ }
+
+#pag{
+    display: block;
+    float: left;
+    background-color: black;
+    color: white;
+    border-color: rgb(5, 241, 76);
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 4px;
+    padding-right: 0%;
+    padding-bottom: 20px;
+    padding-left: 0%;
+    padding-top: 20px;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 21%;
+}
+#pag h2{
+    margin-block-end: 15px;
+    padding-left: 5%;
+}
+#pag ul{
+    list-style: none;
+}
+
+#pag ul li a{
+    display: block;
+    text-decoration: none;
+    padding-right: 500px;
+    padding-top: 15px;
+    padding-left: 5%;
+    padding-bottom: 15px;
+ }
+
+ #pag ul li a:link{
+    color:yellow;
+ }
+
+ #pag ul li a:visited{
+    color:gray;
+ }
+
+ #pag ul li a:hover{
+    background-color: rgb(5, 241, 76);
+ }
+
+ #borde2{
+    display:block;
+    position: relative;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+ footer{
+    float: left;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color:  rgb(5, 241, 76);
+    border-radius: 25px;
+    border-width: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3%;
+    padding-right: 75%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 0%;
+ }
+
+footer h2{
+    margin-bottom: 15px;
+}
+
+.a:link{
+    color:yellow;
+    text-decoration: none;
+}
+
+.a:visited{
+    color:gray;
+    text-decoration: none;
+}
+
+footer p:last-child{
+    margin-bottom: 15px;
+ }
+
+
+
